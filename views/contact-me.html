@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+</head>
+<body>
+  <h2>Contact Me</h2>
+  <!-- action says where to submit (url), method says http-method to use on submit , enctype says
+  which encoding the submitted data has -->
+  <form action="/" method="post" enctype="text/plain">
+    <!-- for says which input element this label is for -->
+    <label for="name-input">Your name:</label>
+    <!-- name says which variabel this inputs to, will be sent as key/value in request -->
+    <input type="text" id="name-input" name="name">
+    <br>
+    <label for="email-input">Your email:</label>
+    <input type="email" id="email-input" name="email">
+    <br>
+    <label for="message-input">Your message:</label>
+    <textarea name="message" id="message-input" cols="30" rows="20"></textarea>
+    <br>
+    <button type="submit" id="form-submit">Send</button>
+  </form>
+</body>
+</html>

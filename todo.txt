@@ -1,0 +1,13 @@
+* CV
+* serversida + api
+* Inloggning
+* Content management
+* Convert to Vue.js
+
+Funktionalitet
+* Träningsschema + resultat
+* Film och serielista, integration med IMDB
+* MC-turer och vägar
+* Spellista (gaming)
+* Lista artiklar, videos etc.
+* Accessability
